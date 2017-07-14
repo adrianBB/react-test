@@ -1,0 +1,25 @@
+*{
+	margin: 0;padding: 0;
+}
+.nav{
+	 text-align: center;
+	 height: 3rem;
+}
+.nav .nav-first{
+	
+	float: left;
+	width:33.3%;
+	line-height: 3rem;
+}
+.nav .nav-two{
+	
+	float: left;
+	width:33.3%;
+	line-height: 3rem; 
+}
+.nav .nav-there{
+	
+	float: left;
+	width:33.3%; 
+	line-height: 3rem;
+}

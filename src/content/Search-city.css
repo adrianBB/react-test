@@ -1,0 +1,60 @@
+*{
+	margin: 0;padding: 0;
+}
+
+.search{
+	position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px;
+}
+.search .search-city{
+	float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 20%;
+    border-right: 1px solid #e8e8e8;
+}
+.search .cityIcon{
+	display: block;
+	width: 0.75rem;
+	height: 0.75rem;
+	position: relative;
+	bottom:-1.5rem;
+	right: 2rem;
+	z-index: 2;
+	float: left;
+}
+.search .ipt{
+	display: block;
+	float: left;
+	width: 60%;
+}
+.search .inputer{
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 1.2rem;
+    float: left;
+}
+.search .bgImg{
+	width: 19%;
+	display: block;
+	float: right;
+	
+}
+.search .bgImg span{
+	display: block;
+	height: 2rem;
+	width: 2rem;
+	background: url(../bg-img/icon.png) no-repeat -1rem 0.1rem;
+	background-size:300px 300px; 
+	margin: 0.8rem 2rem;
+	
+}

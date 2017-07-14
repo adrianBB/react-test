@@ -1,0 +1,99 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#root{
+	width: 100%;
+	height: 100%;
+}
+body .radial {
+    background: -moz-linear-gradient(left 135deg,#029253,#00887b);
+    background: -webkit-gradient(linear,100% 100%,0 0,from(#029253),to(#00887b));
+    background: -webkit-linear-gradient(135deg,#029253,#00887b);
+    background: -o-linear-gradient(135deg,#029253,#00887b);
+    font: 400 62.5% "黑体",Arial;
+    width: 100%;
+	height: 100%;
+}
+.new_wrapper {
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+
+.new_register, .reg_pwd {
+    position: relative;
+}
+.new_register>div, .reg_pwd>div {
+    position: relative;
+}
+.new_register input, .reg_pwd input {
+    width: 90%;
+    border: 0;
+    outline: 0;
+    font: 1.5em "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0.21rem;
+    padding: 6% 5%;
+    margin: 0;
+}
+.new_register i.eye, .reg_pwd i.eye {
+    width: 1.8rem;
+    height: 1.0rem;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 0 no-repeat;
+    background-size: 20px 30px;
+    position: absolute;
+    bottom: 33%;
+    right: 5%;
+    -moz-transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    transition: transform .3s linear 0s;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+.register_text {
+    color: #45e3be;
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+.btn_green_border {
+    display: block;
+    width: 90%;
+    font-size: 2em;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}
+
+.new_register .btn_green {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    -webkit-box-shadow: 0 2px 0 #008765;
+    -moz-box-shadow: 0 2px 0 #008765;
+    box-shadow: 0 2px 0 #008765;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+}
